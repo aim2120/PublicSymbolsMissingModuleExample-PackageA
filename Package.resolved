@@ -1,6 +1,15 @@
 {
-  "originHash" : "168da62237b98f9187564d6d7e73284e5dc757dd81db35f7a52b58bdb9d248b3",
+  "originHash" : "9254ea4a7b7c4614b57c1b1d2dbc720b7ba2ee0073f6e2f156bfd8661be7f243",
   "pins" : [
+    {
+      "identity" : "ios_sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adjust/ios_sdk",
+      "state" : {
+        "revision" : "e163732d55c3c0eb749f22418b6e4855839696c3",
+        "version" : "4.38.4"
+      }
+    },
     {
       "identity" : "publicsymbolsmissingmoduleexample-packageb",
       "kind" : "remoteSourceControl",
