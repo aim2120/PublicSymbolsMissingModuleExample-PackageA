@@ -11,11 +11,17 @@ let package = Package(
             name: "PublicSymbolsMissingModuleExample-PackageA",
             targets: ["PublicSymbolsMissingModuleExample-PackageA"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/aim2120/PublicSymbolsMissingModuleExample-PackageB", from: "0.0.0"),
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "PublicSymbolsMissingModuleExample-PackageA"),
+            name: "PublicSymbolsMissingModuleExample-PackageA",
+            dependencies: [
+                .product(name: "PublicSymbolsMissingModuleExample-PackageB", package: "PublicSymbolsMissingModuleExample-PackageB"),
+            ]),
         .testTarget(
             name: "PublicSymbolsMissingModuleExample-PackageATests",
             dependencies: ["PublicSymbolsMissingModuleExample-PackageA"]

@@ -1,0 +1,15 @@
+{
+  "originHash" : "168da62237b98f9187564d6d7e73284e5dc757dd81db35f7a52b58bdb9d248b3",
+  "pins" : [
+    {
+      "identity" : "publicsymbolsmissingmoduleexample-packageb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aim2120/PublicSymbolsMissingModuleExample-PackageB",
+      "state" : {
+        "revision" : "369b6214b88d87ea33fd0e25a0f672da5eab6871",
+        "version" : "0.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
