@@ -1,22 +1,13 @@
 {
-  "originHash" : "9254ea4a7b7c4614b57c1b1d2dbc720b7ba2ee0073f6e2f156bfd8661be7f243",
+  "originHash" : "fa37734e26200c6757e11baeb800657b8ae40c7de99ae5fb0272b84e1d06895f",
   "pins" : [
-    {
-      "identity" : "ios_sdk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/adjust/ios_sdk",
-      "state" : {
-        "revision" : "e163732d55c3c0eb749f22418b6e4855839696c3",
-        "version" : "4.38.4"
-      }
-    },
     {
       "identity" : "publicsymbolsmissingmoduleexample-packageb",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/aim2120/PublicSymbolsMissingModuleExample-PackageB",
       "state" : {
-        "revision" : "369b6214b88d87ea33fd0e25a0f672da5eab6871",
-        "version" : "0.0.0"
+        "revision" : "31f769d07f2b94e51d4f13ab561cc6da200a4cea",
+        "version" : "0.0.1"
       }
     }
   ],

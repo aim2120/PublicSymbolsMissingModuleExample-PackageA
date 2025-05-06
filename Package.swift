@@ -13,8 +13,7 @@ let package = Package(
             targets: ["PublicSymbolsMissingModuleExample-PackageA"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/aim2120/PublicSymbolsMissingModuleExample-PackageB", from: "0.0.0"),
-        .package(url: "https://github.com/adjust/ios_sdk", from: "4.0.0"),
+        .package(url: "https://github.com/aim2120/PublicSymbolsMissingModuleExample-PackageB", from: "0.0.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -23,7 +22,6 @@ let package = Package(
             name: "PublicSymbolsMissingModuleExample-PackageA",
             dependencies: [
                 .product(name: "PublicSymbolsMissingModuleExample-PackageB", package: "PublicSymbolsMissingModuleExample-PackageB"),
-                .product(name: "Adjust", package: "ios_sdk"),
             ]),
         .testTarget(
             name: "PublicSymbolsMissingModuleExample-PackageATests",
