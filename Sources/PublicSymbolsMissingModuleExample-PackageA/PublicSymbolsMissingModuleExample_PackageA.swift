@@ -4,4 +4,7 @@
 import Adjust
 import PublicSymbolsMissingModuleExample_PackageB
 
-public struct PackageA { }
+public struct PackageA {
+    public let packageB: PackageB
+    public let adjust: Adjust
+}
